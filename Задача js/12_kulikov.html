@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="12_Kulikov.js"></script>
+</head>
+<body>
+    <button onclick="button1Click(); this.id='clicked'" id="input" ></button>
+    <style>
+        #input:before {
+            content: 'Нажми меня';
+        }
+
+        #clicked:before {
+            content: 'хех, теперь не можешь!';
+        }
+    </style>
+</body>
+</html>
